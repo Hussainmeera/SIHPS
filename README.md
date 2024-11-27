@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:27-11-2024
+## Register Number:24900255
+## Name:A.Meera Hussain
 ## Problem Title
 Implementation of the Alumni Association platform for the University/Institute.
 ## Problem Description
