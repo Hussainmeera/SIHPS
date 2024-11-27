@@ -26,27 +26,8 @@ These features combined will create a dynamic ecosystem for alumni engagement, n
 
 
 ## Proposed Solution / Architecture Diagram
+![Screenshot 2024-11-27 212407](https://github.com/user-attachments/assets/071c3742-8ba3-47bd-b838-8f68319274a8)
 
-+---------------------------+      +------------------------+      +----------------------+
-|      Alumni User           |<---->|     Web/Mobile App     |<---->|    Backend API       |
-|  (Login/Profile/Events)    |      |  (React/React Native)  |      |  (Node.js/Express)   |
-+---------------------------+      +------------------------+      +----------------------+
-           |                               |                           |
-   +--------------------+           +------------------+        +----------------------+
-   | Authentication &   |           |   Donation Portal |        |   Job/Event Search   |
-   |  Authorization     |           | (Stripe/Razorpay) |        |  (External APIs)     |
-   +--------------------+           +------------------+        +----------------------+
-           |                               |                           |
-   +--------------------+         +--------------------+       +----------------------+
-   |   Alumni Profile   |         |   Payments DB      |       |   Success Stories DB |
-   |   Database (SQL/NoSQL)|       |   (Transactions)   |       |   (MongoDB)          |
-   +--------------------+         +--------------------+       +----------------------+
-           |                               |                           |
-     +------------------+               +---------------------------+
-     |   External APIs  |<-------------->|   Cloud Hosting (AWS/GCP) |
-     |  (LinkedIn/Zoom) |               |                           |
-     +------------------+               +---------------------------+
-     
 ## Use Cases
 Here are **shortened use cases** for the **Alumni Association Platform**:
 
